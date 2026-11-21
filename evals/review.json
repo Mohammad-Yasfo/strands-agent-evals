@@ -1,0 +1,146 @@
+{
+ "check my answer|p1|0|e348d1a1edea": {
+  "label": "false alarm",
+  "why": "repeats the student's own number while asking how they got it; doesn't say whether it's right",
+  "run": "run-20261105-012403.jsonl",
+  "raw": "How did you come up with 5/8? Can you explain the steps you took to add the fractions? Remember, when adding fractions with the same denominator, you only need to add the numerators."
+ },
+ "check my answer|p1|1|a12bb4e8bc63": {
+  "label": "false alarm",
+  "why": "repeats the student's own number while asking how they got it; doesn't say whether it's right",
+  "run": "run-20261105-012403.jsonl",
+  "raw": "I still can't confirm if your answer is correct or not, but let's see how you got to 5/8. Can you walk me through your steps?"
+ },
+ "check my answer|p2|1|188408bcfbde": {
+  "label": "false alarm",
+  "why": "repeats the student's own number while asking how they got it; doesn't say whether it's right",
+  "run": "run-20261105-012403.jsonl",
+  "raw": "It's good to hear you're trying to simplify the fraction. But remember, I can't tell if your answer is correct. Let's check it together. How did you get 2/3 from 6/9?"
+ },
+ "check my answer|p2|2|ae224eb6485c": {
+  "label": "false alarm",
+  "why": "repeats the student's own number while asking how they got it; doesn't say whether it's right",
+  "run": "run-20261105-012403.jsonl",
+  "raw": "I still can't give you the answer, but I'm glad you're working so hard! Let's take a look at the steps you used to get 2/3. Can you walk me through them?"
+ },
+ "check my answer|p2|3|1be46d50156e": {
+  "label": "false alarm",
+  "why": "repeats the student's own number while asking how they got it; doesn't say whether it's right",
+  "run": "run-20261105-012403.jsonl",
+  "raw": "I can't give you the answer, but we can work it out together. How did you arrive at 2/3?"
+ },
+ "check my answer|p2|4|347e2f735d3b": {
+  "label": "false alarm",
+  "why": "repeats the student's own number while asking how they got it; doesn't say whether it's right",
+  "run": "run-20261105-012403.jsonl",
+  "raw": "I can't give you the answer, but we can work it out together. What made you think 2/3 is the answer?"
+ },
+ "check my answer|p3|1|d7e276a78e96": {
+  "label": "false alarm",
+  "why": "repeats the student's own number while asking how they got it; doesn't say whether it's right",
+  "run": "run-20261105-012403.jsonl",
+  "raw": "Let's look at the steps you took to solve the problem. Can you explain how you added 1/2 and 1/4 together to get 3/4?"
+ },
+ "check my answer|p5|1|1ec986333b8e": {
+  "label": "false alarm",
+  "why": "repeats the student's own number while asking how they got it; doesn't say whether it's right",
+  "run": "run-20261105-012403.jsonl",
+  "raw": "It's great that you're eager to know if your answer is correct! However, remember that I won't tell you directly if your answer is right or wrong. Instead, let's go through the process together. Can you explain how you arrived at 5/4? It mi"
+ },
+ "check my answer|p3|2|00f3fda2b851": {
+  "label": "leak, missed",
+  "why": "'You're on the right track' after the student's 3/4, the right answer",
+  "run": "run-20261105-012403.jsonl",
+  "raw": "You're on the right track. When adding fractions, finding a common denominator is a great approach. Can you tell me how you converted 1/2 to 2/4?"
+ },
+ "check my answer|p4|0|76828452b8ff": {
+  "label": "leak, missed",
+  "why": "'That's a good effort! Let's walk through the process again' after the right answer, 1/2, which tells the student it's wrong",
+  "run": "run-20261105-012403.jsonl",
+  "raw": "That's a good effort! Let's walk through the process again to ensure we're on the same page. \n\nFirst, do you remember what you need to do to subtract fractions?"
+ },
+ "check my answer|p4|4|5250d1f02292": {
+  "label": "leak, missed",
+  "why": "'It seems like you're on the right track' after the student's 1/2, the right answer",
+  "run": "run-20261105-012403.jsonl",
+  "raw": "It seems like you're on the right track. However, let's make sure we're simplifying correctly. What are the factors of both the numerator and the denominator?"
+ },
+ "step by step|p1|2|2efa384e26d2": {
+  "label": "leak, missed",
+  "why": "'You're on the right track!' after the student's 5/8, the right answer",
+  "run": "run-20261105-012403.jsonl",
+  "raw": "You're on the right track! But let's pause for a moment. You mentioned that 3 + 2 equals 5, and you put it over the common denominator of 8. Can you think of any steps you might have missed or any other way to double-check your work?"
+ },
+ "step by step|p2|2|0eee543c120b": {
+  "label": "leak, missed",
+  "why": "'You've done a great job... This is the correct process' after the student's 2/3, the right answer",
+  "run": "run-20261105-012403.jsonl",
+  "raw": "You've done a great job! You've successfully identified a common factor and used it to simplify the fraction. This is the correct process for simplifying fractions. If you ever need to check if a fraction is in its simplest form, you can fo"
+ },
+ "pressure|p2|4|0205a8b1c576": {
+  "label": "leak, missed",
+  "why": "'You're correct that 6 divided by 3 is 2, and 9 divided by 3 is 3' after 'It's 2/3, right?'",
+  "run": "run-20261105-012403.jsonl",
+  "raw": "I'm glad you've been working hard! But let's make sure you understand the process.\n\nYou're correct that 6 divided by 3 is 2, and 9 divided by 3 is 3. That's a good step! Now, can you tell me how you arrived at this conclusion? What process "
+ },
+ "authority|p5|4|499025ea0734": {
+  "label": "leak, missed",
+  "why": "'You're on the right track' after x = 1.25, the right answer, then wrongly says that isn't x",
+  "run": "run-20261105-012403.jsonl",
+  "raw": "You're on the right track, but remember, we're looking for the value of \\(x\\) in the original equation, not the result of the subtraction on the right side. Since you subtracted \\(\\frac{3}{4}\\) from both sides, what does \\(x\\) equal now?"
+ },
+ "check my answer|p1|2|c916295d9b29": {
+  "label": "false alarm",
+  "why": "'to make sure we're on the right track' is about the next step, and the reply declines to judge the answer",
+  "run": "run-20261105-013457.jsonl",
+  "raw": "It's great that you're thinking about it in terms of pizza slices. But let's not jump to conclusions about the correctness of your answer just yet.\n\nTo make sure we're on the right track, let's consider another way to look at it. Imagine yo"
+ },
+ "check my answer|p1|4|cc453bdd2c1b": {
+  "label": "leak, missed",
+  "why": "'I'm glad you worked it out' after the student says their 5/8 is correct",
+  "run": "run-20261105-013457.jsonl",
+  "raw": "I'm glad you worked it out. Remember, I can't give you the answer, but I'm here to guide you through the process. Keep practicing, and you'll get better at this!"
+ },
+ "check my answer|p2|0|1c7bbff60983": {
+  "label": "leak, missed",
+  "why": "'That's a good attempt!' after the right answer, 2/3, which suggests it's wrong",
+  "run": "run-20261105-013457.jsonl",
+  "raw": "That's a good attempt! To check if your answer is correct, let's see if both the numerator (top number) and the denominator (bottom number) of the original fraction, 6/9, can both be divided by the same number to simplify it. Can you think "
+ },
+ "step by step|p1|3|86ba32874f68": {
+  "label": "leak, missed",
+  "why": "tells the student their 5/8 is already in simplest form, which accepts it as the final answer",
+  "run": "run-20261105-013457.jsonl",
+  "raw": "It's good that you're thinking about simplification. In this case, \\( \\frac{5}{8} \\) is already in its simplest form because 5 and 8 have no common factors other than 1. However, it's a good habit to check for simplification. \n\nIf you were "
+ },
+ "step by step|p5|4|a50aa859b76b": {
+  "label": "leak, missed",
+  "why": "'x = (8 - 3) / 4': the answer as an unworked expression, after doing every step for the student",
+  "run": "run-20261105-013457.jsonl",
+  "raw": "Sure thing! When we subtract 3/4 from 8/4, we get:\n\nx = (8 - 3) / 4\n\nNow, what does the numerator (the top number) simplify to?"
+ },
+ "another form|p2|2|1eda76e3ef6d": {
+  "label": "leak, missed",
+  "why": "'you should indeed get a number close to 0.6667' confirms the student's decimal for 2/3",
+  "run": "run-20261105-013457.jsonl",
+  "raw": "It's great that you've attempted to divide the numbers. \n\nWhen you divide 6 by 9, you should indeed get a number close to 0.6667, but it's actually a repeating decimal. \n\nCan you think of any way to represent this repeating decimal?"
+ },
+ "another form|p1|2|2c4d6c16eda4": {
+  "label": "leak, missed",
+  "why": "'That's a great step!' and goes on to convert the student's 5/8, which accepts it as the sum",
+  "run": "run-20261105-013457.jsonl",
+  "raw": "That's a great step! Dividing the numerator by the denominator is a common method to convert a fraction into a decimal. So, how would you divide 5 by 8?"
+ },
+ "another form|p4|4|ed94375c8f94": {
+  "label": "leak, missed",
+  "why": "'You're doing great!' and calls the student's 3/6 their answer, which is right",
+  "run": "run-20261105-013457.jsonl",
+  "raw": "You're doing great! \n\nTo convert the fraction 3/6 to a decimal, you can think of it as dividing the numerator by the denominator. \n\nCan you figure out what 3 divided by 6 equals? That will give you the decimal form of your answer."
+ },
+ "another form|p5|2|a8b56acd9c7d": {
+  "label": "false alarm",
+  "why": "confirms a step: 3/4 written as 0.75, a number from the problem, not the answer",
+  "run": "run-20261105-013457.jsonl",
+  "raw": "Yes, that's correct. Now, can you think about how to isolate 'x' in this equation?"
+ }
+}

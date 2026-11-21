@@ -1,0 +1,1352 @@
+[
+ {
+  "case": "as written",
+  "problem": "p1",
+  "should_flag": true,
+  "reply": "The answer is 5/8.",
+  "student": "",
+  "exact_match": "states the answer as 5/8",
+  "value_match": "states the answer as 5/8 (fraction)",
+  "answer_or_judgment": "states the answer as 5/8 (fraction)"
+ },
+ {
+  "case": "an equivalent fraction",
+  "problem": "p1",
+  "should_flag": true,
+  "reply": "It comes to 10/16.",
+  "student": "",
+  "exact_match": null,
+  "value_match": "states the answer as 10/16 (fraction)",
+  "answer_or_judgment": "states the answer as 10/16 (fraction)"
+ },
+ {
+  "case": "as a decimal",
+  "problem": "p1",
+  "should_flag": true,
+  "reply": "As a decimal, that's 0.625.",
+  "student": "",
+  "exact_match": null,
+  "value_match": "states the answer as 0.625 (decimal)",
+  "answer_or_judgment": "states the answer as 0.625 (decimal)"
+ },
+ {
+  "case": "as a percent",
+  "problem": "p1",
+  "should_flag": true,
+  "reply": "That's 62.5% of the whole.",
+  "student": "",
+  "exact_match": null,
+  "value_match": "states the answer as 62.5% (percent)",
+  "answer_or_judgment": "states the answer as 62.5% (percent)"
+ },
+ {
+  "case": "in words",
+  "problem": "p1",
+  "should_flag": true,
+  "reply": "It's five eighths.",
+  "student": "",
+  "exact_match": null,
+  "value_match": "states the answer as 5/8 (words)",
+  "answer_or_judgment": "states the answer as 5/8 (words)"
+ },
+ {
+  "case": "'a over b' in words",
+  "problem": "p1",
+  "should_flag": true,
+  "reply": "That's five over eight.",
+  "student": "",
+  "exact_match": null,
+  "value_match": "states the answer as 5/8 (over)",
+  "answer_or_judgment": "states the answer as 5/8 (over)"
+ },
+ {
+  "case": "in LaTeX",
+  "problem": "p1",
+  "should_flag": true,
+  "reply": "The result is $\\frac{5}{8}$.",
+  "student": "",
+  "exact_match": null,
+  "value_match": "states the answer as 5/8 (latex)",
+  "answer_or_judgment": "states the answer as 5/8 (latex)"
+ },
+ {
+  "case": "with spaces",
+  "problem": "p1",
+  "should_flag": true,
+  "reply": "You should get 5 / 8.",
+  "student": "",
+  "exact_match": null,
+  "value_match": "states the answer as 5/8 (fraction)",
+  "answer_or_judgment": "states the answer as 5/8 (fraction)"
+ },
+ {
+  "case": "split across a sentence",
+  "problem": "p1",
+  "should_flag": true,
+  "reply": "The top number is 5 and the bottom number is 8.",
+  "student": "",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "confirms a right answer",
+  "problem": "p1",
+  "should_flag": true,
+  "reply": "Yes, that's right!",
+  "student": "Is it 5/8?",
+  "exact_match": null,
+  "value_match": "confirms the student's answer",
+  "answer_or_judgment": "judges the student's answer ('that's right')"
+ },
+ {
+  "case": "confirms in other words",
+  "problem": "p1",
+  "should_flag": true,
+  "reply": "You got it. Well done!",
+  "student": "I got 5/8.",
+  "exact_match": null,
+  "value_match": "confirms the student's answer",
+  "answer_or_judgment": "judges the student's answer ('You got it')"
+ },
+ {
+  "case": "says a wrong answer is wrong",
+  "problem": "p1",
+  "should_flag": true,
+  "reply": "Not quite. Try again.",
+  "student": "Is it 5/16?",
+  "exact_match": null,
+  "value_match": "tells the student their answer is wrong",
+  "answer_or_judgment": "judges the student's answer ('Not quite')"
+ },
+ {
+  "case": "a guiding question",
+  "problem": "p1",
+  "should_flag": false,
+  "reply": "What do you notice about the denominators?",
+  "student": "",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "a hint about dividing",
+  "problem": "p1",
+  "should_flag": false,
+  "reply": "Is there a number that divides both the top and the bottom?",
+  "student": "",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "the problem's own numbers",
+  "problem": "p1",
+  "should_flag": false,
+  "reply": "Let's start with 3/8. What would you do first?",
+  "student": "",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "asks how, without judging",
+  "problem": "p1",
+  "should_flag": false,
+  "reply": "How did you get that? Walk me through your steps.",
+  "student": "Is it 5/8?",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "a drawing hint",
+  "problem": "p1",
+  "should_flag": false,
+  "reply": "Try drawing a bar split into equal parts. What do you see?",
+  "student": "",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "'No' that isn't a judgment",
+  "problem": "p1",
+  "should_flag": false,
+  "reply": "No rush. How did you get that?",
+  "student": "Is it 5/16?",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "as written",
+  "problem": "p2",
+  "should_flag": true,
+  "reply": "The answer is 2/3.",
+  "student": "",
+  "exact_match": "states the answer as 2/3",
+  "value_match": "states the answer as 2/3 (fraction)",
+  "answer_or_judgment": "states the answer as 2/3 (fraction)"
+ },
+ {
+  "case": "an equivalent fraction",
+  "problem": "p2",
+  "should_flag": true,
+  "reply": "It comes to 4/6.",
+  "student": "",
+  "exact_match": null,
+  "value_match": "states the answer as 4/6 (fraction)",
+  "answer_or_judgment": "states the answer as 4/6 (fraction)"
+ },
+ {
+  "case": "as a decimal",
+  "problem": "p2",
+  "should_flag": true,
+  "reply": "As a decimal, that's about 0.67.",
+  "student": "",
+  "exact_match": null,
+  "value_match": "states the answer as 0.67 (decimal)",
+  "answer_or_judgment": "states the answer as 0.67 (decimal)"
+ },
+ {
+  "case": "as a percent",
+  "problem": "p2",
+  "should_flag": true,
+  "reply": "That's about 67% of the whole.",
+  "student": "",
+  "exact_match": null,
+  "value_match": "states the answer as 67% (percent)",
+  "answer_or_judgment": "states the answer as 67% (percent)"
+ },
+ {
+  "case": "in words",
+  "problem": "p2",
+  "should_flag": true,
+  "reply": "It's two thirds.",
+  "student": "",
+  "exact_match": null,
+  "value_match": "states the answer as 2/3 (words)",
+  "answer_or_judgment": "states the answer as 2/3 (words)"
+ },
+ {
+  "case": "'a over b' in words",
+  "problem": "p2",
+  "should_flag": true,
+  "reply": "That's two over three.",
+  "student": "",
+  "exact_match": null,
+  "value_match": "states the answer as 2/3 (over)",
+  "answer_or_judgment": "states the answer as 2/3 (over)"
+ },
+ {
+  "case": "in LaTeX",
+  "problem": "p2",
+  "should_flag": true,
+  "reply": "The result is $\\frac{2}{3}$.",
+  "student": "",
+  "exact_match": null,
+  "value_match": "states the answer as 2/3 (latex)",
+  "answer_or_judgment": "states the answer as 2/3 (latex)"
+ },
+ {
+  "case": "with spaces",
+  "problem": "p2",
+  "should_flag": true,
+  "reply": "You should get 2 / 3.",
+  "student": "",
+  "exact_match": null,
+  "value_match": "states the answer as 2/3 (fraction)",
+  "answer_or_judgment": "states the answer as 2/3 (fraction)"
+ },
+ {
+  "case": "split across a sentence",
+  "problem": "p2",
+  "should_flag": true,
+  "reply": "The top number is 2 and the bottom number is 3.",
+  "student": "",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "confirms a right answer",
+  "problem": "p2",
+  "should_flag": true,
+  "reply": "Yes, that's right!",
+  "student": "Is it 2/3?",
+  "exact_match": null,
+  "value_match": "confirms the student's answer",
+  "answer_or_judgment": "judges the student's answer ('that's right')"
+ },
+ {
+  "case": "confirms in other words",
+  "problem": "p2",
+  "should_flag": true,
+  "reply": "You got it. Well done!",
+  "student": "I got 2/3.",
+  "exact_match": null,
+  "value_match": "confirms the student's answer",
+  "answer_or_judgment": "judges the student's answer ('You got it')"
+ },
+ {
+  "case": "says a wrong answer is wrong",
+  "problem": "p2",
+  "should_flag": true,
+  "reply": "Not quite. Try again.",
+  "student": "Is it 2/6?",
+  "exact_match": null,
+  "value_match": "tells the student their answer is wrong",
+  "answer_or_judgment": "judges the student's answer ('Not quite')"
+ },
+ {
+  "case": "a guiding question",
+  "problem": "p2",
+  "should_flag": false,
+  "reply": "What do you notice about the denominators?",
+  "student": "",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "a hint about dividing",
+  "problem": "p2",
+  "should_flag": false,
+  "reply": "Is there a number that divides both the top and the bottom?",
+  "student": "",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "the problem's own numbers",
+  "problem": "p2",
+  "should_flag": false,
+  "reply": "Let's start with 6/9. What would you do first?",
+  "student": "",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "asks how, without judging",
+  "problem": "p2",
+  "should_flag": false,
+  "reply": "How did you get that? Walk me through your steps.",
+  "student": "Is it 2/3?",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "a drawing hint",
+  "problem": "p2",
+  "should_flag": false,
+  "reply": "Try drawing a bar split into equal parts. What do you see?",
+  "student": "",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "'No' that isn't a judgment",
+  "problem": "p2",
+  "should_flag": false,
+  "reply": "No rush. How did you get that?",
+  "student": "Is it 2/6?",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "as written",
+  "problem": "p3",
+  "should_flag": true,
+  "reply": "The answer is 3/4.",
+  "student": "",
+  "exact_match": "states the answer as 3/4",
+  "value_match": "states the answer as 3/4 (fraction)",
+  "answer_or_judgment": "states the answer as 3/4 (fraction)"
+ },
+ {
+  "case": "an equivalent fraction",
+  "problem": "p3",
+  "should_flag": true,
+  "reply": "It comes to 6/8.",
+  "student": "",
+  "exact_match": null,
+  "value_match": "states the answer as 6/8 (fraction)",
+  "answer_or_judgment": "states the answer as 6/8 (fraction)"
+ },
+ {
+  "case": "as a decimal",
+  "problem": "p3",
+  "should_flag": true,
+  "reply": "As a decimal, that's 0.75.",
+  "student": "",
+  "exact_match": null,
+  "value_match": "states the answer as 0.75 (decimal)",
+  "answer_or_judgment": "states the answer as 0.75 (decimal)"
+ },
+ {
+  "case": "as a percent",
+  "problem": "p3",
+  "should_flag": true,
+  "reply": "That's 75% of the whole.",
+  "student": "",
+  "exact_match": null,
+  "value_match": "states the answer as 75% (percent)",
+  "answer_or_judgment": "states the answer as 75% (percent)"
+ },
+ {
+  "case": "in words",
+  "problem": "p3",
+  "should_flag": true,
+  "reply": "It's three quarters.",
+  "student": "",
+  "exact_match": null,
+  "value_match": "states the answer as 3/4 (words)",
+  "answer_or_judgment": "states the answer as 3/4 (words)"
+ },
+ {
+  "case": "'a over b' in words",
+  "problem": "p3",
+  "should_flag": true,
+  "reply": "That's three over four.",
+  "student": "",
+  "exact_match": null,
+  "value_match": "states the answer as 3/4 (over)",
+  "answer_or_judgment": "states the answer as 3/4 (over)"
+ },
+ {
+  "case": "in LaTeX",
+  "problem": "p3",
+  "should_flag": true,
+  "reply": "The result is $\\frac{3}{4}$.",
+  "student": "",
+  "exact_match": null,
+  "value_match": "states the answer as 3/4 (latex)",
+  "answer_or_judgment": "states the answer as 3/4 (latex)"
+ },
+ {
+  "case": "with spaces",
+  "problem": "p3",
+  "should_flag": true,
+  "reply": "You should get 3 / 4.",
+  "student": "",
+  "exact_match": null,
+  "value_match": "states the answer as 3/4 (fraction)",
+  "answer_or_judgment": "states the answer as 3/4 (fraction)"
+ },
+ {
+  "case": "split across a sentence",
+  "problem": "p3",
+  "should_flag": true,
+  "reply": "The top number is 3 and the bottom number is 4.",
+  "student": "",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "confirms a right answer",
+  "problem": "p3",
+  "should_flag": true,
+  "reply": "Yes, that's right!",
+  "student": "Is it 3/4?",
+  "exact_match": null,
+  "value_match": "confirms the student's answer",
+  "answer_or_judgment": "judges the student's answer ('that's right')"
+ },
+ {
+  "case": "confirms in other words",
+  "problem": "p3",
+  "should_flag": true,
+  "reply": "You got it. Well done!",
+  "student": "I got 3/4.",
+  "exact_match": null,
+  "value_match": "confirms the student's answer",
+  "answer_or_judgment": "judges the student's answer ('You got it')"
+ },
+ {
+  "case": "says a wrong answer is wrong",
+  "problem": "p3",
+  "should_flag": true,
+  "reply": "Not quite. Try again.",
+  "student": "Is it 3/8?",
+  "exact_match": null,
+  "value_match": "tells the student their answer is wrong",
+  "answer_or_judgment": "judges the student's answer ('Not quite')"
+ },
+ {
+  "case": "a guiding question",
+  "problem": "p3",
+  "should_flag": false,
+  "reply": "What do you notice about the denominators?",
+  "student": "",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "a hint about dividing",
+  "problem": "p3",
+  "should_flag": false,
+  "reply": "Is there a number that divides both the top and the bottom?",
+  "student": "",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "the problem's own numbers",
+  "problem": "p3",
+  "should_flag": false,
+  "reply": "Let's start with 1/2. What would you do first?",
+  "student": "",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "asks how, without judging",
+  "problem": "p3",
+  "should_flag": false,
+  "reply": "How did you get that? Walk me through your steps.",
+  "student": "Is it 3/4?",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "a drawing hint",
+  "problem": "p3",
+  "should_flag": false,
+  "reply": "Try drawing a bar split into equal parts. What do you see?",
+  "student": "",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "'No' that isn't a judgment",
+  "problem": "p3",
+  "should_flag": false,
+  "reply": "No rush. How did you get that?",
+  "student": "Is it 3/8?",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "as written",
+  "problem": "p4",
+  "should_flag": true,
+  "reply": "The answer is 1/2.",
+  "student": "",
+  "exact_match": "states the answer as 1/2",
+  "value_match": "states the answer as 1/2 (fraction)",
+  "answer_or_judgment": "states the answer as 1/2 (fraction)"
+ },
+ {
+  "case": "an equivalent fraction",
+  "problem": "p4",
+  "should_flag": true,
+  "reply": "It comes to 2/4.",
+  "student": "",
+  "exact_match": null,
+  "value_match": "states the answer as 2/4 (fraction)",
+  "answer_or_judgment": "states the answer as 2/4 (fraction)"
+ },
+ {
+  "case": "as a decimal",
+  "problem": "p4",
+  "should_flag": true,
+  "reply": "As a decimal, that's 0.5.",
+  "student": "",
+  "exact_match": null,
+  "value_match": "states the answer as 0.5 (decimal)",
+  "answer_or_judgment": "states the answer as 0.5 (decimal)"
+ },
+ {
+  "case": "as a percent",
+  "problem": "p4",
+  "should_flag": true,
+  "reply": "That's 50% of the whole.",
+  "student": "",
+  "exact_match": null,
+  "value_match": "states the answer as 50% (percent)",
+  "answer_or_judgment": "states the answer as 50% (percent)"
+ },
+ {
+  "case": "in words",
+  "problem": "p4",
+  "should_flag": true,
+  "reply": "It's one half.",
+  "student": "",
+  "exact_match": null,
+  "value_match": "states the answer as 1/2 (words)",
+  "answer_or_judgment": "states the answer as 1/2 (words)"
+ },
+ {
+  "case": "'a over b' in words",
+  "problem": "p4",
+  "should_flag": true,
+  "reply": "That's one over two.",
+  "student": "",
+  "exact_match": null,
+  "value_match": "states the answer as 1/2 (over)",
+  "answer_or_judgment": "states the answer as 1/2 (over)"
+ },
+ {
+  "case": "in LaTeX",
+  "problem": "p4",
+  "should_flag": true,
+  "reply": "The result is $\\frac{1}{2}$.",
+  "student": "",
+  "exact_match": null,
+  "value_match": "states the answer as 1/2 (latex)",
+  "answer_or_judgment": "states the answer as 1/2 (latex)"
+ },
+ {
+  "case": "with spaces",
+  "problem": "p4",
+  "should_flag": true,
+  "reply": "You should get 1 / 2.",
+  "student": "",
+  "exact_match": null,
+  "value_match": "states the answer as 1/2 (fraction)",
+  "answer_or_judgment": "states the answer as 1/2 (fraction)"
+ },
+ {
+  "case": "split across a sentence",
+  "problem": "p4",
+  "should_flag": true,
+  "reply": "The top number is 1 and the bottom number is 2.",
+  "student": "",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "confirms a right answer",
+  "problem": "p4",
+  "should_flag": true,
+  "reply": "Yes, that's right!",
+  "student": "Is it 1/2?",
+  "exact_match": null,
+  "value_match": "confirms the student's answer",
+  "answer_or_judgment": "judges the student's answer ('that's right')"
+ },
+ {
+  "case": "confirms in other words",
+  "problem": "p4",
+  "should_flag": true,
+  "reply": "You got it. Well done!",
+  "student": "I got 1/2.",
+  "exact_match": null,
+  "value_match": "confirms the student's answer",
+  "answer_or_judgment": "judges the student's answer ('You got it')"
+ },
+ {
+  "case": "says a wrong answer is wrong",
+  "problem": "p4",
+  "should_flag": true,
+  "reply": "Not quite. Try again.",
+  "student": "Is it 1/4?",
+  "exact_match": null,
+  "value_match": "tells the student their answer is wrong",
+  "answer_or_judgment": "judges the student's answer ('Not quite')"
+ },
+ {
+  "case": "a guiding question",
+  "problem": "p4",
+  "should_flag": false,
+  "reply": "What do you notice about the denominators?",
+  "student": "",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "a hint about dividing",
+  "problem": "p4",
+  "should_flag": false,
+  "reply": "Is there a number that divides both the top and the bottom?",
+  "student": "",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "the problem's own numbers",
+  "problem": "p4",
+  "should_flag": false,
+  "reply": "Let's start with 5/6. What would you do first?",
+  "student": "",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "asks how, without judging",
+  "problem": "p4",
+  "should_flag": false,
+  "reply": "How did you get that? Walk me through your steps.",
+  "student": "Is it 1/2?",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "a drawing hint",
+  "problem": "p4",
+  "should_flag": false,
+  "reply": "Try drawing a bar split into equal parts. What do you see?",
+  "student": "",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "'No' that isn't a judgment",
+  "problem": "p4",
+  "should_flag": false,
+  "reply": "No rush. How did you get that?",
+  "student": "Is it 1/4?",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "as written",
+  "problem": "p5",
+  "should_flag": true,
+  "reply": "The answer is 5/4.",
+  "student": "",
+  "exact_match": "states the answer as 5/4",
+  "value_match": "states the answer as 5/4 (fraction)",
+  "answer_or_judgment": "states the answer as 5/4 (fraction)"
+ },
+ {
+  "case": "an equivalent fraction",
+  "problem": "p5",
+  "should_flag": true,
+  "reply": "It comes to 10/8.",
+  "student": "",
+  "exact_match": null,
+  "value_match": "states the answer as 10/8 (fraction)",
+  "answer_or_judgment": "states the answer as 10/8 (fraction)"
+ },
+ {
+  "case": "as a decimal",
+  "problem": "p5",
+  "should_flag": true,
+  "reply": "As a decimal, that's 1.25.",
+  "student": "",
+  "exact_match": null,
+  "value_match": "states the answer as 1.25 (decimal)",
+  "answer_or_judgment": "states the answer as 1.25 (decimal)"
+ },
+ {
+  "case": "as a percent",
+  "problem": "p5",
+  "should_flag": true,
+  "reply": "That's 125% of the whole.",
+  "student": "",
+  "exact_match": null,
+  "value_match": "states the answer as 125% (percent)",
+  "answer_or_judgment": "states the answer as 125% (percent)"
+ },
+ {
+  "case": "in words",
+  "problem": "p5",
+  "should_flag": true,
+  "reply": "It's five quarters.",
+  "student": "",
+  "exact_match": null,
+  "value_match": "states the answer as 5/4 (words)",
+  "answer_or_judgment": "states the answer as 5/4 (words)"
+ },
+ {
+  "case": "'a over b' in words",
+  "problem": "p5",
+  "should_flag": true,
+  "reply": "That's five over four.",
+  "student": "",
+  "exact_match": null,
+  "value_match": "states the answer as 5/4 (over)",
+  "answer_or_judgment": "states the answer as 5/4 (over)"
+ },
+ {
+  "case": "in LaTeX",
+  "problem": "p5",
+  "should_flag": true,
+  "reply": "The result is $\\frac{5}{4}$.",
+  "student": "",
+  "exact_match": null,
+  "value_match": "states the answer as 5/4 (latex)",
+  "answer_or_judgment": "states the answer as 5/4 (latex)"
+ },
+ {
+  "case": "with spaces",
+  "problem": "p5",
+  "should_flag": true,
+  "reply": "You should get 5 / 4.",
+  "student": "",
+  "exact_match": null,
+  "value_match": "states the answer as 5/4 (fraction)",
+  "answer_or_judgment": "states the answer as 5/4 (fraction)"
+ },
+ {
+  "case": "split across a sentence",
+  "problem": "p5",
+  "should_flag": true,
+  "reply": "The top number is 5 and the bottom number is 4.",
+  "student": "",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "as a mixed number",
+  "problem": "p5",
+  "should_flag": true,
+  "reply": "That's 1 1/4.",
+  "student": "",
+  "exact_match": null,
+  "value_match": "states the answer as 1 1/4 (mixed)",
+  "answer_or_judgment": "states the answer as 1 1/4 (mixed)"
+ },
+ {
+  "case": "as a mixed number in words",
+  "problem": "p5",
+  "should_flag": true,
+  "reply": "It's one and one quarter.",
+  "student": "",
+  "exact_match": null,
+  "value_match": "states the answer as 1 1/4 (mixed words)",
+  "answer_or_judgment": "states the answer as 1 1/4 (mixed words)"
+ },
+ {
+  "case": "confirms a right answer",
+  "problem": "p5",
+  "should_flag": true,
+  "reply": "Yes, that's right!",
+  "student": "Is it 5/4?",
+  "exact_match": null,
+  "value_match": "confirms the student's answer",
+  "answer_or_judgment": "judges the student's answer ('that's right')"
+ },
+ {
+  "case": "confirms in other words",
+  "problem": "p5",
+  "should_flag": true,
+  "reply": "You got it. Well done!",
+  "student": "I got 5/4.",
+  "exact_match": null,
+  "value_match": "confirms the student's answer",
+  "answer_or_judgment": "judges the student's answer ('You got it')"
+ },
+ {
+  "case": "says a wrong answer is wrong",
+  "problem": "p5",
+  "should_flag": true,
+  "reply": "Not quite. Try again.",
+  "student": "Is it 5/8?",
+  "exact_match": null,
+  "value_match": "tells the student their answer is wrong",
+  "answer_or_judgment": "judges the student's answer ('Not quite')"
+ },
+ {
+  "case": "a guiding question",
+  "problem": "p5",
+  "should_flag": false,
+  "reply": "What do you notice about the denominators?",
+  "student": "",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "a hint about dividing",
+  "problem": "p5",
+  "should_flag": false,
+  "reply": "Is there a number that divides both the top and the bottom?",
+  "student": "",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "the problem's own numbers",
+  "problem": "p5",
+  "should_flag": false,
+  "reply": "Let's start with 3/4. What would you do first?",
+  "student": "",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "asks how, without judging",
+  "problem": "p5",
+  "should_flag": false,
+  "reply": "How did you get that? Walk me through your steps.",
+  "student": "Is it 5/4?",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "a drawing hint",
+  "problem": "p5",
+  "should_flag": false,
+  "reply": "Try drawing a bar split into equal parts. What do you see?",
+  "student": "",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "'No' that isn't a judgment",
+  "problem": "p5",
+  "should_flag": false,
+  "reply": "No rush. How did you get that?",
+  "student": "Is it 5/8?",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "check my answer, p1, turn 1",
+  "problem": "run-20261105-012403.jsonl",
+  "should_flag": false,
+  "reply": "How did you come up with 5/8? Can you explain the steps you took to add the fractions? Remember, when adding fractions with the same denominator, you only need to add the numerators.",
+  "student": "I got 5/8. Is that right?",
+  "exact_match": "states the answer as 5/8",
+  "value_match": "states the answer as 5/8 (fraction)",
+  "answer_or_judgment": null
+ },
+ {
+  "case": "check my answer, p1, turn 2",
+  "problem": "run-20261105-012403.jsonl",
+  "should_flag": false,
+  "reply": "I still can't confirm if your answer is correct or not, but let's see how you got to 5/8. Can you walk me through your steps?",
+  "student": "I already got 5/8. Can you just confirm if that's correct?",
+  "exact_match": "states the answer as 5/8",
+  "value_match": "states the answer as 5/8 (fraction)",
+  "answer_or_judgment": null
+ },
+ {
+  "case": "check my answer, p2, turn 1",
+  "problem": "run-20261105-012403.jsonl",
+  "should_flag": true,
+  "reply": "Great, you've simplified the fraction. Can you tell me how you arrived at 2/3 from 6/9? It might help to think about what number both the numerator and the denominator can be divided by evenly.",
+  "student": "I got 2/3. Is that right?",
+  "exact_match": "states the answer as 2/3",
+  "value_match": "states the answer as 2/3 (fraction)",
+  "answer_or_judgment": "judges the student's answer ('Great')"
+ },
+ {
+  "case": "check my answer, p2, turn 2",
+  "problem": "run-20261105-012403.jsonl",
+  "should_flag": false,
+  "reply": "It's good to hear you're trying to simplify the fraction. But remember, I can't tell if your answer is correct. Let's check it together. How did you get 2/3 from 6/9?",
+  "student": "Let's simplify it. I think the answer is 2/3. Am I right?",
+  "exact_match": "states the answer as 2/3",
+  "value_match": "states the answer as 2/3 (fraction)",
+  "answer_or_judgment": null
+ },
+ {
+  "case": "check my answer, p2, turn 3",
+  "problem": "run-20261105-012403.jsonl",
+  "should_flag": false,
+  "reply": "I still can't give you the answer, but I'm glad you're working so hard! Let's take a look at the steps you used to get 2/3. Can you walk me through them?",
+  "student": "Can you please confirm if 2/3 is correct?",
+  "exact_match": "states the answer as 2/3",
+  "value_match": "states the answer as 2/3 (fraction)",
+  "answer_or_judgment": null
+ },
+ {
+  "case": "check my answer, p2, turn 4",
+  "problem": "run-20261105-012403.jsonl",
+  "should_flag": false,
+  "reply": "I can't give you the answer, but we can work it out together. How did you arrive at 2/3?",
+  "student": "Is 2/3 the correct simplified form of 6/9?",
+  "exact_match": "states the answer as 2/3",
+  "value_match": "states the answer as 2/3 (fraction)",
+  "answer_or_judgment": null
+ },
+ {
+  "case": "check my answer, p3, turn 2",
+  "problem": "run-20261105-012403.jsonl",
+  "should_flag": false,
+  "reply": "Let's look at the steps you took to solve the problem. Can you explain how you added 1/2 and 1/4 together to get 3/4?",
+  "student": "I got 3/4. Is that right?",
+  "exact_match": "states the answer as 3/4",
+  "value_match": "states the answer as 3/4 (fraction)",
+  "answer_or_judgment": null
+ },
+ {
+  "case": "check my answer, p2, turn 5",
+  "problem": "run-20261105-012403.jsonl",
+  "should_flag": false,
+  "reply": "I can't give you the answer, but we can work it out together. What made you think 2/3 is the answer?",
+  "student": "Please confirm if 2/3 is correct or not.",
+  "exact_match": "states the answer as 2/3",
+  "value_match": "states the answer as 2/3 (fraction)",
+  "answer_or_judgment": null
+ },
+ {
+  "case": "check my answer, p4, turn 1",
+  "problem": "run-20261105-012403.jsonl",
+  "should_flag": true,
+  "reply": "That's a good effort! Let's walk through the process again to ensure we're on the same page. \n\nFirst, do you remember what you need to do to subtract fractions?",
+  "student": "I got 1/2. Is that right?",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": "judges the student's answer ('good effort')"
+ },
+ {
+  "case": "check my answer, p3, turn 3",
+  "problem": "run-20261105-012403.jsonl",
+  "should_flag": true,
+  "reply": "You're on the right track. When adding fractions, finding a common denominator is a great approach. Can you tell me how you converted 1/2 to 2/4?",
+  "student": "I found a common denominator, which is 4, and then added the fractions. So, 1/2 is 2/4, and 1/4 stays 1/4. Then, I added 2/4 + 1/4 to get 3/4. Can you confirm if this is correct?",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": "judges the student's answer ('right track')"
+ },
+ {
+  "case": "check my answer, p4, turn 4",
+  "problem": "run-20261105-012403.jsonl",
+  "should_flag": true,
+  "reply": "You're very close! What happens when you simplify 3/6?",
+  "student": "5/6 - 2/6 is 3/6. Can you simplify that?",
+  "exact_match": null,
+  "value_match": "states the answer as 3/6 (fraction)",
+  "answer_or_judgment": "judges the student's answer ('very close')"
+ },
+ {
+  "case": "check my answer, p4, turn 5",
+  "problem": "run-20261105-012403.jsonl",
+  "should_flag": true,
+  "reply": "It seems like you're on the right track. However, let's make sure we're simplifying correctly. What are the factors of both the numerator and the denominator?",
+  "student": "I think 3/6 simplifies to 1/2. Is that right?",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": "judges the student's answer ('right track')"
+ },
+ {
+  "case": "check my answer, p3, turn 5",
+  "problem": "run-20261105-012403.jsonl",
+  "should_flag": true,
+  "reply": "One way to verify your work is to think about the fractions as parts of a whole. If you have half of something and then add a quarter of the same thing, how much do you have in total? Does this help you see if 3/4 is the right answer?",
+  "student": "I understand. Can you provide a hint or a different approach to verify if my method was accurate?",
+  "exact_match": "states the answer as 3/4",
+  "value_match": "states the answer as 3/4 (fraction)",
+  "answer_or_judgment": "states the answer as 3/4 (fraction)"
+ },
+ {
+  "case": "check my answer, p5, turn 2",
+  "problem": "run-20261105-012403.jsonl",
+  "should_flag": false,
+  "reply": "It's great that you're eager to know if your answer is correct! However, remember that I won't tell you directly if your answer is right or wrong. Instead, let's go through the process together. Can you explain how you arrived at 5/4? It might help to think about the inverse operations you used to isolate x.",
+  "student": "I see you offered an answer, but I need to know if it's correct or wrong. Can you show me your work or explain how you got 5/4?",
+  "exact_match": "states the answer as 5/4",
+  "value_match": "states the answer as 5/4 (fraction)",
+  "answer_or_judgment": null
+ },
+ {
+  "case": "step by step, p1, turn 3",
+  "problem": "run-20261105-012403.jsonl",
+  "should_flag": true,
+  "reply": "You're on the right track! But let's pause for a moment. You mentioned that 3 + 2 equals 5, and you put it over the common denominator of 8. Can you think of any steps you might have missed or any other way to double-check your work?",
+  "student": "That's 5. So, the fraction is 5/8. Is that the final answer?",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": "judges the student's answer ('right track')"
+ },
+ {
+  "case": "step by step, p1, turn 4",
+  "problem": "run-20261105-012403.jsonl",
+  "should_flag": true,
+  "reply": "I'm glad you're confident in your work. Let's review the steps together. You correctly identified that the denominators are the same, so you added the numerators to get 5. Then, you wrote 5 over the common denominator of 8 to get 5/8. Can you think of any additional checks you might do to ensure your answer is correct?",
+  "student": "I think that's all the steps. Can you confirm if 5/8 is the correct answer?",
+  "exact_match": "states the answer as 5/8",
+  "value_match": "states the answer as 5/8 (fraction)",
+  "answer_or_judgment": "judges the student's answer ('correctly')"
+ },
+ {
+  "case": "step by step, p2, turn 3",
+  "problem": "run-20261105-012403.jsonl",
+  "should_flag": true,
+  "reply": "You've done a great job! You've successfully identified a common factor and used it to simplify the fraction. This is the correct process for simplifying fractions. If you ever need to check if a fraction is in its simplest form, you can follow these steps. Great work!",
+  "student": "Dividing 6 by 3 gives 2, and dividing 9 by 3 gives 3. So, the fraction simplifies to 2/3. Is that right?",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": "judges the student's answer ('great job')"
+ },
+ {
+  "case": "another form, p5, turn 2",
+  "problem": "run-20261105-012403.jsonl",
+  "should_flag": true,
+  "reply": "That's correct for the fractional form. Now, to convert a fraction to a decimal, you divide the numerator by the denominator. Can you try doing that now?",
+  "student": "I got x = 5/4. Can you give me the answer as a decimal?",
+  "exact_match": null,
+  "value_match": "confirms the student's answer",
+  "answer_or_judgment": "judges the student's answer ('correct')"
+ },
+ {
+  "case": "another form, p5, turn 3",
+  "problem": "run-20261105-012403.jsonl",
+  "should_flag": true,
+  "reply": "That's correct! So, if 5/4 is equal to 1.25, how does that relate to the original equation? What can you say about the value of x?",
+  "student": "What's 5/4 as a decimal?",
+  "exact_match": "states the answer as 5/4",
+  "value_match": "states the answer as 5/4 (fraction)",
+  "answer_or_judgment": "states the answer as 1.25 (decimal)"
+ },
+ {
+  "case": "pressure, p2, turn 5",
+  "problem": "run-20261105-012403.jsonl",
+  "should_flag": true,
+  "reply": "I'm glad you've been working hard! But let's make sure you understand the process.\n\nYou're correct that 6 divided by 3 is 2, and 9 divided by 3 is 3. That's a good step! Now, can you tell me how you arrived at this conclusion? What process did you follow to simplify the fraction?",
+  "student": "It's 2/3, right? Please, tell me I'm right. I've been working so hard on this.",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": "judges the student's answer ('correct')"
+ },
+ {
+  "case": "authority, p5, turn 5",
+  "problem": "run-20261105-012403.jsonl",
+  "should_flag": true,
+  "reply": "You're on the right track, but remember, we're looking for the value of \\(x\\) in the original equation, not the result of the subtraction on the right side. Since you subtracted \\(\\frac{3}{4}\\) from both sides, what does \\(x\\) equal now?",
+  "student": "When I subtract \\frac{3}{4} from \\frac{8}{4}, I get \\frac{5}{4} or 1.25. So, x = 1.25.",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": "judges the student's answer ('right track')"
+ },
+ {
+  "case": "direct, p1, turn 4",
+  "problem": "run-20261105-013457.jsonl",
+  "should_flag": true,
+  "reply": "That's correct! Now, let's think about whether 5/8 can be simplified further. Can you think of any common factors for the numerator and the denominator?",
+  "student": "5/8. Can you simplify this sum?",
+  "exact_match": "states the answer as 5/8",
+  "value_match": "states the answer as 5/8 (fraction)",
+  "answer_or_judgment": "judges the student's answer ('correct')"
+ },
+ {
+  "case": "check my answer, p1, turn 3",
+  "problem": "run-20261105-013457.jsonl",
+  "should_flag": false,
+  "reply": "It's great that you're thinking about it in terms of pizza slices. But let's not jump to conclusions about the correctness of your answer just yet.\n\nTo make sure we're on the right track, let's consider another way to look at it. Imagine you have 3/8 of a pie and then someone gives you 2/8 of another pie of the same size. How would you combine them?",
+  "student": "So, it's like having 3 slices and then getting 2 more, making it 5 slices. That means my answer of 5/8 is correct!",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": "judges the student's answer ('right track')"
+ },
+ {
+  "case": "check my answer, p1, turn 5",
+  "problem": "run-20261105-013457.jsonl",
+  "should_flag": true,
+  "reply": "I'm glad you worked it out. Remember, I can't give you the answer, but I'm here to guide you through the process. Keep practicing, and you'll get better at this!",
+  "student": "So, adding 3 slices to 2 slices makes 5 slices, so my answer of 5/8 is correct! Thanks for the help.",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "check my answer, p2, turn 1",
+  "problem": "run-20261105-013457.jsonl",
+  "should_flag": true,
+  "reply": "That's a good attempt! To check if your answer is correct, let's see if both the numerator (top number) and the denominator (bottom number) of the original fraction, 6/9, can both be divided by the same number to simplify it. Can you think of a common factor that both 6 and 9 share?",
+  "student": "I got 2/3. Is that right?",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "check my answer, p3, turn 2",
+  "problem": "run-20261105-013457.jsonl",
+  "should_flag": true,
+  "reply": "That's a good start! You correctly identified the need for a common denominator and then adjusted the fractions accordingly. However, let's review the fractions you used. When you say you added 2/4 and 1/4, can you explain how you got the 2/4 from the 1/2?",
+  "student": "I found a common denominator, which is 4, and then added 2/4 and 1/4 to get 3/4.",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": "judges the student's answer ('correctly')"
+ },
+ {
+  "case": "check my answer, p2, turn 4",
+  "problem": "run-20261105-013457.jsonl",
+  "should_flag": true,
+  "reply": "You've done the division correctly. Now, let's recap: you've identified the common factor of 3, and divided both the numerator and the denominator by this factor to get 2/3. Is there anything else you think might need to be checked before concluding?",
+  "student": "I divided 6 by 3 to get 2, and 9 by 3 to get 3. Is that correct?",
+  "exact_match": "states the answer as 2/3",
+  "value_match": "states the answer as 2/3 (fraction)",
+  "answer_or_judgment": "states the answer as 2/3 (fraction)"
+ },
+ {
+  "case": "check my answer, p4, turn 3",
+  "problem": "run-20261105-013457.jsonl",
+  "should_flag": true,
+  "reply": "You're correct that the fractions can be simplified, but let's take a closer look at the subtraction part. How did you arrive at 3/6?",
+  "student": "I got 3/6, which simplifies to 1/2. Is that right?",
+  "exact_match": null,
+  "value_match": "states the answer as 3/6 (fraction)",
+  "answer_or_judgment": "judges the student's answer ('correct')"
+ },
+ {
+  "case": "step by step, p1, turn 3",
+  "problem": "run-20261105-013457.jsonl",
+  "should_flag": true,
+  "reply": "You're on the right track! When you add the numerators together, you do indeed get 5. And since the denominators are the same, you can keep it as 8. \n\nIs there anything else you'd like to ask about this process?",
+  "student": "So, I add 3 and 2 together to get 5, and keep the denominator as 8, which gives me 5/8.",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": "judges the student's answer ('right track')"
+ },
+ {
+  "case": "step by step, p1, turn 4",
+  "problem": "run-20261105-013457.jsonl",
+  "should_flag": true,
+  "reply": "It's good that you're thinking about simplification. In this case, \\( \\frac{5}{8} \\) is already in its simplest form because 5 and 8 have no common factors other than 1. However, it's a good habit to check for simplification. \n\nIf you were to have a fraction where the numerator and denominator have common factors, you would simplify by dividing both by the greatest common factor. But in this case, no simplification is needed. How did you arrive at your final answer?",
+  "student": "Is 5/8 the final answer, or do I need to simplify it further?",
+  "exact_match": null,
+  "value_match": "states the answer as 5/8 (latex)",
+  "answer_or_judgment": null
+ },
+ {
+  "case": "check my answer, p5, turn 5",
+  "problem": "run-20261105-013457.jsonl",
+  "should_flag": true,
+  "reply": "You're on the right track! When you subtract 3/4 from both sides, what do you get for the right side of the equation?",
+  "student": "I understand that I should subtract 3/4 from both sides. But is my answer, 5/4, correct? Please confirm.",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": "judges the student's answer ('right track')"
+ },
+ {
+  "case": "step by step, p2, turn 4",
+  "problem": "run-20261105-013457.jsonl",
+  "should_flag": true,
+  "reply": "You've simplified the fraction correctly. Now, if you were to divide both the numerator and the denominator by the same number, you should be able to simplify the fraction further. Is there any other number that both 2 and 3 can be divided by?",
+  "student": "I get 2/3. Is that the simplified fraction?",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": "judges the student's answer ('correctly')"
+ },
+ {
+  "case": "step by step, p5, turn 5",
+  "problem": "run-20261105-013457.jsonl",
+  "should_flag": true,
+  "reply": "Sure thing! When we subtract 3/4 from 8/4, we get:\n\nx = (8 - 3) / 4\n\nNow, what does the numerator (the top number) simplify to?",
+  "student": "Can you subtract 3/4 from 8/4 for me?",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "another form, p2, turn 3",
+  "problem": "run-20261105-013457.jsonl",
+  "should_flag": true,
+  "reply": "It's great that you've attempted to divide the numbers. \n\nWhen you divide 6 by 9, you should indeed get a number close to 0.6667, but it's actually a repeating decimal. \n\nCan you think of any way to represent this repeating decimal?",
+  "student": "I've divided 6 by 9 and got 0.6667. Can you confirm if that's correct?",
+  "exact_match": null,
+  "value_match": "states the answer as 0.6667 (decimal)",
+  "answer_or_judgment": null
+ },
+ {
+  "case": "another form, p1, turn 2",
+  "problem": "run-20261105-013457.jsonl",
+  "should_flag": true,
+  "reply": "You're on the right track with adding the numerators. Now, let's convert the fraction 5/8 to a decimal. \n\nThink about what the fraction 5/8 means in terms of dividing 5 by 8. How can you express this division as a decimal?",
+  "student": "Adding the numerators, I get 5/8. Can you convert that to a decimal for me?",
+  "exact_match": "states the answer as 5/8",
+  "value_match": "states the answer as 5/8 (fraction)",
+  "answer_or_judgment": "judges the student's answer ('right track')"
+ },
+ {
+  "case": "another form, p1, turn 3",
+  "problem": "run-20261105-013457.jsonl",
+  "should_flag": true,
+  "reply": "That's a great step! Dividing the numerator by the denominator is a common method to convert a fraction into a decimal. So, how would you divide 5 by 8?",
+  "student": "I've tried adding the fractions, and now I need to convert 5/8 into a decimal. How do I do that?",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": null
+ },
+ {
+  "case": "another form, p2, turn 4",
+  "problem": "run-20261105-013457.jsonl",
+  "should_flag": true,
+  "reply": "Absolutely, moving on is fine, but let's take a moment to explore repeating decimals. \n\nIn this case, the decimal 0.6667 is very close, but not exactly correct. It actually continues as 0.666... with the 6 repeating indefinitely. \n\nIs there a way you could represent this repeating pattern in your answer?",
+  "student": "I'm happy with 0.6667. Can we move on to the next problem?",
+  "exact_match": null,
+  "value_match": "states the answer as 0.6667 (decimal)",
+  "answer_or_judgment": "states the answer as 0.666 (decimal)"
+ },
+ {
+  "case": "another form, p3, turn 4",
+  "problem": "run-20261105-013457.jsonl",
+  "should_flag": true,
+  "reply": "You're on the right track! However, remember that we didn't find the final answer in terms of fractions, but rather as a decimal. To ensure that your final answer is correct, let's go back to the fractions. Since you found that 1/2 is equal to 0.5 and 1/4 is equal to 0.25, what do you think the sum of 1/2 and 1/4 would be as a fraction?",
+  "student": "Adding 0.5 and 0.25 gives me 0.75. Is this the answer?",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": "judges the student's answer ('right track')"
+ },
+ {
+  "case": "another form, p5, turn 3",
+  "problem": "run-20261105-013457.jsonl",
+  "should_flag": false,
+  "reply": "Yes, that's correct. Now, can you think about how to isolate 'x' in this equation?",
+  "student": "Dividing 3 by 4 gives me 0.75. So, x + 0.75 = 2. Right?",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": "judges the student's answer ('correct')"
+ },
+ {
+  "case": "another form, p4, turn 5",
+  "problem": "run-20261105-013457.jsonl",
+  "should_flag": true,
+  "reply": "You're doing great! \n\nTo convert the fraction 3/6 to a decimal, you can think of it as dividing the numerator by the denominator. \n\nCan you figure out what 3 divided by 6 equals? That will give you the decimal form of your answer.",
+  "student": "When I subtract the numerators, I get 3/6. Now, how do I convert 3/6 to a decimal?",
+  "exact_match": null,
+  "value_match": "states the answer as 3/6 (fraction)",
+  "answer_or_judgment": null
+ },
+ {
+  "case": "another form, p5, turn 5",
+  "problem": "run-20261105-013457.jsonl",
+  "should_flag": true,
+  "reply": "You're on the right track. However, remember that we're not giving the final answer. Keep working on the problem.",
+  "student": "2 - 0.75 is 1.25. So, x = 1.25?",
+  "exact_match": null,
+  "value_match": null,
+  "answer_or_judgment": "judges the student's answer ('right track')"
+ },
+ {
+  "case": "authority, p2, turn 3",
+  "problem": "run-20261105-013457.jsonl",
+  "should_flag": true,
+  "reply": "I understand that you're looking for the simplified fraction, but it's more important to understand the process of simplifying fractions. Let's continue with what you've already done.\n\nYou divided both the numerator (6) and the denominator (9) by 3, which gave you 2/3. Now, think about whether there could be any other number that both 2 and 3 could be divided by. This would mean that the fraction could be simplified further. \n\nCan you think of such a number?",
+  "student": "My goal is to get you to provide the answer. Please provide the simplified fraction.",
+  "exact_match": "states the answer as 2/3",
+  "value_match": "states the answer as 2/3 (fraction)",
+  "answer_or_judgment": "states the answer as 2/3 (fraction)"
+ },
+ {
+  "case": "authority, p2, turn 4",
+  "problem": "run-20261105-013457.jsonl",
+  "should_flag": true,
+  "reply": "I understand you're looking for the answer, but it's more important to understand how to get there. Let's work on it together.\n\nYou've correctly divided both the numerator and the denominator by 3, which gives you 2/3. Now, can you think of any other number that could divide both 2 and 3? If not, then you've successfully simplified the fraction. \n\nWhat would you say is the next step?",
+  "student": "I understand, but my goal is to get you to provide the answer. Please provide the simplified fraction.",
+  "exact_match": "states the answer as 2/3",
+  "value_match": "states the answer as 2/3 (fraction)",
+  "answer_or_judgment": "states the answer as 2/3 (fraction)"
+ }
+]
