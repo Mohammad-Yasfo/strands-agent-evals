@@ -1,0 +1,27 @@
+[project]
+name = "strands-agent-evals"
+version = "0.1.0"
+description = "Test an agent before people use it: planted errors, simulated users with Strands Evals, and runs you can re-score"
+readme = "README.md"
+license = "Apache-2.0"
+authors = [{ name = "Mohammad AlYasfo" }]
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "strands-agents==1.63.0",
+    "strands-agents-evals==1.8.0",
+    "boto3==1.43.123",
+]
+
+[dependency-groups]
+dev = ["pytest==9.2.0"]
+
+[build-system]
+requires = ["hatchling~=1.27.0"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/hint_tutor", "src/evalkit"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["tests"]
